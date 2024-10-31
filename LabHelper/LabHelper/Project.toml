@@ -1,0 +1,6 @@
+[deps]
+GenieFramework = "a59fdf5c-6bf0-4f5d-949c-a137c9e2f353"
+PrettyNumbers = "d1bdb62b-d559-469f-b147-fd8a93502a34"
+
+[Genie]
+instantiated_pwd = "c:\\Users\\Christian\\Documents\\Julia\\Julia\\LabHelper\\LabHelper"

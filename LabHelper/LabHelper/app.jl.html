@@ -1,0 +1,32 @@
+<st-tabs id="iezu" class="bg-primary text-white shadow-2" v-model="selected_tab" :ids="tab_ids" :labels="tab_labels"></st-tabs>
+<q-tab-panels id="inl2" v-model="selected_tab">
+    <q-tab-panel id="iedy" name="tab_1">
+        <div id="il54" class="row">
+            <div id="ij2j" class="st-col col-3 col-sm st-module">
+                <div class="row">
+                    <div class="st-col col-12 col-sm st-module">
+                        <div class="row">
+                            <div class="st-col col-12 st-module">
+                                <q-input id="i4gg" step="0.01" class="inline" type="text" :clearable="true" :filled="false" :dense="false" label="Input" v-model="input_value"></q-input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="inni" class="st-col col-3 col-sm st-module">
+                <q-select id="issi" class="inline" :filled="false" label="metric prefix" :options="prefix_options" v-model="selected_prefix_input"></q-select>
+            </div>
+            <div id="ig46f" class="st-col col-1 col-sm st-module">
+                <q-icon id="iigri" class="text-red" name="arrow_forward" color="primary" size="xl"></q-icon>
+            </div>
+            <div id="inaak" class="st-col col-3 col-sm st-module">
+                <p id="iaxf2">{{output_value}}</p>
+            </div>
+            <div class="st-col col-2 col-sm st-module">
+                <q-select id="iaamb" class="inline" :filled="false" :options="prefix_options" label="metric prefix" v-model="selected_prefix_output" :use-chips="false"></q-select>
+            </div>
+        </div>
+    </q-tab-panel>
+    <q-tab-panel id="imuk" name="tab_2"></q-tab-panel>
+    <q-tab-panel id="idj7" name="tab_3"></q-tab-panel>
+</q-tab-panels>
